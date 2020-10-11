@@ -5,8 +5,6 @@ try:
 except ImportError:
     pass
 
-from django.db import models
-from django.db.models.fields import FieldDoesNotExist
 from django.utils.text import smart_split
 
 
